@@ -1,0 +1,13 @@
+# Jackie runs a charitable coding club in her village for young people.
+
+# The laptops that she uses have been donated by a local company but she does have some costs which she needs to fund-raise for:
+
+# an annual fee of £x for the hall that she uses
+# £y per student per month for subscriptions to the online learning platform that she uses
+# Input x (the annual hall fee), y (the monthly subscription fee) and z (the number of children in the club) and output the total cost of running the club for the year.
+def total_costs(x, y, z):
+  total_costs = x + (12 * y * z)
+  return total_costs
+
+# main
+print(total_costs(1000, 10, 50))
